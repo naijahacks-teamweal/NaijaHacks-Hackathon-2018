@@ -1,0 +1,220 @@
+h4 {
+    font-size: 16px;
+    color: #801c56;
+}
+.user-role {
+    color: #e0c1d3 !important;
+}
+
+input.form-control.search-menu {
+    background: #e0c1d3 !important;
+    border: none;
+}
+
+.sidebar-search.input-group{
+    border-color: #801c56 !important;
+}
+/* fIRST SLIDER */
+
+
+#slideshow { 
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    padding: 25% 20%; 
+    background-color: #ffffff;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+    text-align: center; 
+    right: 16px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    right: 10%; 
+    bottom: 10%; 
+    padding: 5% 5%;
+}
+
+#slideshow2 { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    padding: 25% 20%;
+    background-color: #ffffff;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+    text-align: center; 
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    right: 10%; 
+    bottom: 10%; 
+    padding: 5% 5%;
+}
+
+#slideshow3 { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    padding: 25% 20%; 
+    background-color: #ffffff;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+    text-align: center; 
+}
+
+#slideshow3 > div { 
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    right: 10%; 
+    bottom: 10%; 
+    padding: 5% 5%;
+}
+
+#slideshow > div p, #slideshow2 > div p, #slideshow3 > div p { 
+    color: #df2b94;
+}
+
+
+/* Not part of carousel but for customizing the default look of file upload */
+
+.image-upload {
+    width: 80%;
+    background-color: rgba(207, 202, 202, 0.808);
+    padding: 10px 10px;
+    border: 2px dotted rgb(134, 133, 133);
+    text-align: center;
+}
+.image-upload img {
+    width: 150px;
+    height: 150px;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+
+/* For charts */
+
+.graphs {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+#chart-container {
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-left: 0;
+}
+rect {
+    fill: transparent !important;
+    stroke-width: 0 !important;
+}
+#chartobject-1 {
+    border: none !important;
+}
+.fusioncharts-container {
+    border: none !important;
+}
+
+table {
+    margin-top: 60px;
+    width: 100% !important;
+}
+
+thead.default {
+    background-color: azure !important;
+    text-align: center;
+}
+
+.thAsh {
+    background-color: rgb(209, 202, 202) !important;
+    color: #ffffff;
+    text-align: center;
+}
+.thDarkAsh {
+    background-color: rgb(182, 177, 177) !important;
+    color: #801c56;
+    text-align: center;
+}
+.thlightAsh {
+    background-color: rgb(233, 227, 227) !important;
+    text-align: center;
+}
+.pending {
+    background-color: #801c56;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 10%;
+}
+.completed {
+    background-color: #1baf16;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 10%;
+}
+.studying {
+    background-color: #e4e73d;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 10%;
+}
+.lightProgress {
+    background-color: rgb(155, 148, 148);
+}
+.messagebox {
+    margin: 20px 0px 20px 0px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    right: 15px;
+}
+.messagebox h4 {
+    text-align: left !important;
+}
+.messagebox input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+.messagebox textarea {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+}
+.messagebox button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #801c56;
+    padding: 10px;
+    color: #ffffff;
+}
+.raphael-group-17-caption text{
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+.raphael-group-184-dataset-axis-name text{
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+.raphael-group-197-dataset-axis-name text {
+    font-weight: normal !important;
+    font-size: 12px !important;
+}

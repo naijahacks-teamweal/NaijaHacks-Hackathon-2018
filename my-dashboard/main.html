@@ -1,0 +1,465 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Sidebar template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
+    <link href="css/fonts/fontawesome-free-5.4.1-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link rel="stylesheet" href="css/togglesidebar.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon"> 
+</head>
+
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-primary" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#"><img src="img/logo.png" alt="logo">Student</a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="sidebar-header">
+                    <div class="user-pic">
+                        <img class="img-responsive img-rounded" src="img/avatar.png" alt="User picture">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name">Jhon
+                            <strong>Smith</strong>
+                        </span>
+                        <span class="user-role">Administrator</span>
+                        <span class="user-status">
+                            <i class="fa fa-circle"></i>
+                            <span>Online</span>
+                        </span>
+                    </div>
+                </div>
+                <!-- sidebar-header  -->
+                <div class="sidebar-search">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" class="form-control search-menu" placeholder="Search...">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar-search  -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span>Main Details</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-tachometer-alt"></i>
+                                <span>Dashboard</span>
+                                <span class="badge badge-pill badge-danger">New</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Exam Records
+                                            <span class="badge badge-pill badge-success">Pro</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Test Records</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Payment Records</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Timeline</span>
+                                <span class="badge badge-pill badge-primary">3</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Ongoing Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Completed Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sponsorships</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="far fa-gem"></i>
+                                <span>Fee Details</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Nursery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Primary</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Secondary</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Summer</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Others</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-chart-line"></i>
+                                <span>Milestones</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Exhibitions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Art Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Science Club</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-globe"></i>
+                                <span>Community</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Parents</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Academic</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-menu">
+                            <span>Others</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar"></i>
+                                <span>News Feed</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-folder"></i>
+                                <span>Teacher's Handout</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-book"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fa fa-bell"></i>
+                    <span class="badge badge-pill badge-warning notification">3</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span class="badge badge-pill badge-success notification">7</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="badge-sonar"></span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid">
+                <div class="row topNav clearfix">
+                    <div class="col-md-4 offset-md-2 search-top">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="col-md-2 header">
+                            <span>Welcome, Jhon Smith </span>
+                    </div>
+                    <div class="col-md-2 offset-md-2">
+                        <ul>
+                            <li>
+                                <i class="fas fa-bell fa-2x"></i>
+                                <span class="badge badge-pill badge-danger notification">4</span>
+                            </li>
+                            <li>
+                                <i class="far fa-bell fa-2x"></i>
+                                <span class="badge badge-pill badge-success notification">3</span>
+                            </li>
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-power-off fa-2x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row clearfix">
+                    <div class="col-md-4">
+                        <div id="slideshow">
+                            <div>
+                                <h4>Exam Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>62/70</h3>
+                            </div>
+                            <div>
+                                <h4>Exam Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>42/70</h3>
+                            </div>
+                            <div>
+                                <h4>Exam Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>52/70</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="slideshow2">
+                            <div>
+                                <h4>Test Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>14/30</h3>
+                            </div>
+                            <div>
+                                <h4>Test Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>12/30</h3>
+                            </div>
+                            <div>
+                                <h4>Test Score</h4>
+                                <p>Highest Grades</p>
+                                <h3>18/30</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="slideshow3">
+                            <div>
+                                <h4>Class Attendance</h4>
+                                <p>Number of Classes Missed</p>
+                                <h3>11</h3>
+                            </div>
+                            <div>
+                                <h4>Class Attendance</h4>
+                                <p>Number of Classes Attended</p>
+                                <h3>95</h3>
+                            </div>
+                            <div>
+                                <h4>Class Attendance</h4>
+                                <p>Number of Times Absent</p>
+                                <h3>4</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                    <!-- end of exam carousel -->
+                <div class="row clearfix fileupload">
+                    <div class="col-md-5 fileupload1"> 
+                        <h4>Summarize Teacher's Note</h4> 
+                        <br>                  
+                        <div class="image-upload">
+                            <label for="file-input">
+                                <img src="img/cloudsul.png" class="img-fluid"/>
+                            </label>
+                        
+                            <input id="file-input" type="file"/>
+                        </div>
+                    
+                    </div>
+                    <div class="col-md-1 fileupload2">
+                    <br><br><br><br><br><br>
+                        <h5>OR</h5>
+                    </div>
+                    <div class="col-md-6 fileupload3">                    
+                        <input type="text" placeholder="https://">
+                        <button>Preview</button>
+                        <button>Download</button>
+                    
+                    </div>
+                </div>
+                <div class="row clearfix graphs">
+                    <div class="col-md-7 graphs1">
+                        <h4>Fees Paid</h4>
+                        <br>
+                        <div id="chart-container"></div>
+                    </div>
+                    <div class="col-md-5 graphs2">
+                        <h4>Upcoming Events</h4>
+                        <br>
+                        <table class="table">
+                            <thead class="default">
+                                <tr>
+                                <th scope="col" class="thDarkAsh">Project</th>
+                                <th scope="col" class="thAsh">Status</th>
+                                <th scope="col" class="thDarkAsh">Activity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td class="thlightAsh">Debate</td>
+                                <td class="thlightAsh"><span class="pending">Pending</span></td>
+                                <td class="thlightAsh">
+                                    <div class="progress lightProgress">
+                                        <div class="progress-bar bg-danger" role="progressbar"
+                                         style="width: 25%;" aria-valuenow="25" 
+                                         aria-valuemin="0" aria-valuemax="100">25%</div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td class="thDarkAsh">Excursion</td>
+                                <td class="thDarkAsh"><span class="completed">Completed</span></td>
+                                <td class="thDarkAsh">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar"
+                                        style="width: 25%;" aria-valuenow="25" 
+                                        aria-valuemin="0" aria-valuemax="100">25%
+                                        </div>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td class="thlightAsh">Laboratory</td>
+                                <td class="thlightAsh"><span class="completed">Completed</span></td>
+                                <td class="thlightAsh">
+                                    <div class="progress lightProgress">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                            style="width: 25%;" aria-valuenow="25" 
+                                            aria-valuemin="0" aria-valuemax="100">25%
+                                        </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td class="thDarkAsh">CAT 111</td>
+                                    <td class="thDarkAsh"><span class="studying">Studying</span></td>
+                                    <td class="thDarkAsh">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar"
+                                            style="width: 25%;" aria-valuenow="25" 
+                                            aria-valuemin="0" aria-valuemax="100">25%
+                                            </div>
+                                        </div>    
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td class="thlightAsh">Laboratory</td>
+                                    <td class="thlightAsh"><span class="completed">Completed</span></td>
+                                    <td class="thlightAsh">
+                                        <div class="progress lightProgress">
+                                            <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 25%;" aria-valuenow="25" 
+                                                aria-valuemin="0" aria-valuemax="100">25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="thDarkAsh">CAT 111</td>
+                                    <td class="thDarkAsh"><span class="studying">Studying</span></td>
+                                    <td class="thDarkAsh">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar"
+                                                style="width: 25%;" aria-valuenow="25" 
+                                                aria-valuemin="0" aria-valuemax="100">25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row messagebox">
+                    <div class="col-md-12">
+                        <h4>Request A Book</h4>
+                        <input type="text" placeholder="Book Title">
+                        <input type="text" placeholder="Author">
+                        <textarea rows="5" cols="85" placeholder="State reason for boo, include required date and 
+                        proposed return date"></textarea>
+                        <br>
+                        <button>Send</button>
+                    </div>
+                </div>
+                <hr> 
+                <div class="row footer">
+                    <footer class="col-md-12">
+                        <span>copyright &copy; 2018</span>
+                        <span>All rights reserved</span>
+                    </footer>
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"    
+        crossorigin="anonymous"></script> -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--<script src="bootstrap-4.1.3/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquerymain.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="fusioncharts/js/fusioncharts.js"></script>
+    <script src="fusioncharts/js/fusioncharts.charts.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="fusioncharts/js/fusioncharts.jqueryplugin.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
+    <script src="js/dashboards.js"></script>
+</body>
+</html>
