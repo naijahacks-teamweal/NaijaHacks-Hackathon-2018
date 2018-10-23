@@ -1,0 +1,191 @@
+html, body {
+  background-color: #fcf5f5;
+  font-size: 16px;
+  color: #7e7777; }
+
+.header {
+  background-color: #62013C;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 10px #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  .header .logo img {
+    width: 125px;
+    height: 70px; }
+  .header .navigate ul {
+    margin-left: -90px;
+    margin-top: 20px; }
+    .header .navigate ul li {
+      display: inline;
+      color: #fff;
+      list-style-type: none;
+      padding: 10px 0px;
+      margin: 50px 0px 10px 20px;
+      vertical-align: middle; }
+      .header .navigate ul li a {
+        text-decoration: none;
+        color: #fff; }
+  .header .login button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff; }
+
+.belowheader .leftside img {
+  width: 621px;
+  height: 300px;
+  margin-top: 100px; }
+.belowheader .rightside h1 {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 50px; }
+.belowheader .rightside p {
+  font-size: 18px; }
+  .belowheader .rightside p a {
+    color: #f1a7d4; }
+.belowheader .rightside button {
+  background-color: #62013C;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 5px; }
+
+.hiw h2 {
+  color: #62013C;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 30px; }
+  .hiw h2 p {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #7e7777;
+    font-weight: normal; }
+
+.hiwlist .list1 {
+  margin-top: 50px;
+  text-align: center; }
+  .hiwlist .list1 img {
+    width: 300px;
+    height: 141px; }
+  .hiwlist .list1 p {
+    margin-top: 10px;
+    color: #62013C; }
+.hiwlist .list2 {
+  margin-top: 50px;
+  text-align: center; }
+  .hiwlist .list2 img {
+    width: 300px;
+    height: 187px; }
+  .hiwlist .list2 p {
+    margin-top: 10px;
+    color: #62013C; }
+.hiwlist .list3 {
+  margin-top: 50px;
+  text-align: center; }
+  .hiwlist .list3 img {
+    width: 300px;
+    height: 144px; }
+  .hiwlist .list3 p {
+    margin-top: 10px;
+    color: #62013C; }
+
+.videoarea {
+  text-align: center; }
+  .videoarea button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid #62013C;
+    color: #62013C;
+    margin-top: 50px; }
+
+.heroarea {
+  text-align: center;
+  background-color: #e0dcdc;
+  margin-top: 50px;
+  padding-bottom: 50px; }
+  .heroarea h3 {
+    font-size: 30px;
+    margin-top: 50px; }
+  .heroarea p {
+    font-size: 18px;
+    margin-top: 50px; }
+  .heroarea button {
+    width: 300px;
+    height: 120px;
+    background-color: #62013C;
+    border: 3px solid #62013C;
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 20px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease; }
+    .heroarea button:hover {
+      background-color: #ffffff;
+      color: #62013C;
+      border: 3px solid #ffffff; }
+
+.featuresheading {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.features {
+  text-align: center; }
+  .features .features1 img {
+    width: 600px;
+    height: 480px;
+    margin-top: 50px; }
+  .features .features2 ul {
+    margin-top: 50px; }
+    .features .features2 ul li {
+      list-style-type: none;
+      font-size: 18px;
+      margin: 40px 0px 10px 90px;
+      font-weight: bold;
+      text-align: justify; }
+
+footer {
+  padding: 50px 0px 0px 0px;
+  background-color: #e0dcdc; }
+  footer .logo img {
+    width: 100px;
+    height: 100px; }
+  footer .list {
+    padding-bottom: 50px; }
+    footer .list ul li {
+      list-style-type: none;
+      color: #62013C; }
+      footer .list ul li .org {
+        font-weight: bold;
+        color: black; }
+  footer .subfooter {
+    margin-bottom: 0;
+    background-color: #62013C;
+    padding-top: 5px; }
+    footer .subfooter ul li {
+      list-style-type: none;
+      display: inline;
+      margin-left: 10px; }
+      footer .subfooter ul li a {
+        text-decoration: none;
+        color: white; }
+    footer .subfooter .social ul {
+      text-align: right; }
+      footer .subfooter .social ul li {
+        list-style-type: none;
+        display: inline;
+        margin-left: 10px; }
+        footer .subfooter .social ul li img {
+          width: 20px;
+          height: 20px; }
+
+/*# sourceMappingURL=student.css.map */
